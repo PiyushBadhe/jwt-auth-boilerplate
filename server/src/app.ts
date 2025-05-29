@@ -3,7 +3,7 @@ import express, { NextFunction, Request, Response } from "express";
 import session from "express-session";
 import "../config";
 import UserRouter from "./routes/UserRouter";
-import PassportMechanism from "./utils/passport-mechanism";
+import PassportMechanism from "./middleware/passport-mechanism";
 
 class App {
   public app: express.Application;
