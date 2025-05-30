@@ -34,15 +34,25 @@ The purpose of this template is to:
 ### 📁 Structure
 
 server/
+
 ├── config/
+
 │ └── database.ts
+
 │ └── index.ts
+
 ├── src/
+
 │ ├── middleware/
+
 │ │ └── passport-mechanism.ts
+
 │ ├── routes/
+
 │ │ └── UserRouter.ts
+
 ├── app.ts
+
 ├── server.ts
 
 ### ✅ Functionality
@@ -79,9 +89,13 @@ server/
 ### 📁 Structure
 
 client/
+
 ├── src/
+
 │ ├── App.tsx
+
 │ └── main.tsx
+
 └── .env
 
 ### ✅ Functionality
@@ -133,7 +147,7 @@ VITE_BASE_API=http://localhost:3000
    bash
    Copy
    Edit
-   git clone https://github.com/PiyushBadhe/auth-template.git
+   git clone https://github.com/PiyushBadhe/jwt-auth-boilerplate.git
    cd auth-template
 2. Start the Backend
    bash
@@ -167,9 +181,11 @@ VITE_BASE_API=http://localhost:3000
 Multi-page routing with React Router
 
 📄 License
+
 This project is open-source.
 
 🙌 Contributions
+
 Pull requests and feedback are welcome. If you have improvements, feel free to fork and contribute!
 
 ---
