@@ -1,8 +1,5 @@
-import dotenv from "dotenv";
 import http from "http";
 import app from "./app";
-
-dotenv.config(); // Load environment variables
 
 class Server {
   private port: number;
